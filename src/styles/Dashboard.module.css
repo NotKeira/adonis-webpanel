@@ -1,0 +1,130 @@
+.dashboard {
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.sectionButtons {
+    margin: 15rem 0 5rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button {
+    padding: 1rem 2rem;
+    background-color: #00319e;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.link {
+    text-decoration: none;
+    color: #6dffe7;
+    font-weight: bold;
+
+}
+
+.sectionTitle {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sectionText {
+    font-size: 1.25rem;
+    text-wrap: balance;
+    text-align: center;
+}
+.flagPanel {
+    margin-top: auto;
+    background-color: #2ecc71;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+}
+
+.profileButton {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #34495e;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.profileButton:hover {
+    background-color: #1abc9c;
+}
+
+.profileButton img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5em;
+}
+
+.card {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: auto;
+}
+
+.card span {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.card:hover {
+    background-color: #34495e;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

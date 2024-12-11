@@ -1,0 +1,22 @@
+.error {
+    padding: 20px;
+    color: white;
+}
+
+.error h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.error p {
+    font-size: 1.2em;
+}
+
+.returnLink {
+    color: deepskyblue;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
